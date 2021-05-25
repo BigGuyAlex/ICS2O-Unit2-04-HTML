@@ -1,3 +1,4 @@
+
 ###############################################
 
 # Run GitHub's Super Linter against code base #
@@ -5,13 +6,10 @@
 ###############################################
 
 
-
 name: linter
 
 
-
 on: push
-
 
 
 jobs:
@@ -21,7 +19,6 @@ jobs:
     name: Linters
 
     runs-on: ubuntu-latest
-
 
 
     steps:
